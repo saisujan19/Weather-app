@@ -91,19 +91,19 @@ function setBackground(weatherCondition) {
             break;
         case "mist":
         case "fog":
-            backgroundImage = "url('img/mist.jpg')";
+            backgroundImage = "url('img/mist.jpeg')";
             break;
         case "snowy":
-            backgroundImage = "url('img/snowy.jpg')";
+            backgroundImage = "url('img/snowy.jpeg')";
             break;
         case "thunderstorm":
-            backgroundImage = "url('img/thunderstorm.jpg')";
+            backgroundImage = "url('img/thunderstorm.jpeg')";
             break;
         case "haze":
-            backgroundImage = "url('img/haze.jpg')";
+            backgroundImage = "url('img/haze.jpeg')";
             break;
         default:
-            backgroundImage = "url('img/default.jpg')";
+            backgroundImage = "url('img/default.jpeg')";
             break;
     }
 
